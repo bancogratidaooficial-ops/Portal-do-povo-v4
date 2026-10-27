@@ -195,4 +195,27 @@ window.addEventListener('appinstalled', ()=>{
 });
 </script>
 </body>
+  <!-- 2 VIDEOS PORTAL DO POVO - NO COMEÇO -->
+<!-- VIDEO 1 - SEU VIDEO DO PORTAL (que você me mandou antes) -->
+<div style="margin:8px 8px 0;border:2px solid #FFD700;border-radius:14px 14px 0 0;overflow:hidden;background:#000">
+<video id="v1" autoplay muted loop playsinline controls poster="IMG-20261026-WA5175.jpg" style="width:100%;display:block">
+<source src="portal.mp4" type="video/mp4">
+</video>
+<div style="padding:8px;background:#111;text-align:center;border-bottom:1px solid #333">
+<b style="color:#FFD700;font-size:11px">PORTAL DO POVO - VIDEO 1</b><br>
+<button onclick="document.getElementById('v1').muted=false;document.getElementById('v1').play()" style="margin-top:6px;background:#FFD700;color:#000;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 1</button>
+</div>
+</div>
+
+<!-- VIDEO 2 - SEU VIDEO DO YOUTUBE QUE VOCÊ FEZ -->
+<div style="margin:0 8px 8px;border:2px solid #ff0000;border-top:0;border-radius:0 0 14px 14px;overflow:hidden;background:#000">
+<div style="position:relative;width:100%;aspect-ratio:16/9;background:#000">
+<iframe id="v2" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=1&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<div style="padding:8px;background:#111;text-align:center">
+<b style="color:#ff4444;font-size:11px">PORTAL DO POVO - VIDEO QUE VOCÊ FEZ - YOUTUBE</b><br>
+<button onclick="document.getElementById('v2').src='https://www.youtube.com/embed/spF_YCNC0Kc?autoplay=1&mute=0&loop=1&playlist=spF_YCNC0Kc&controls=1&rel=0&playsinline=1'" style="margin-top:6px;background:#ff0000;color:#fff;border:0;padding:8px 18px;border-radius:20px;font-weight:900;font-size:10px">🔊 SOM VIDEO 2</button>
+</div>
+</div>
+<!-- FIM 2 VIDEOS -->
 </html>
